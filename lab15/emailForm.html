@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> emailForm</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<form method="post" enctype="x-www-form-urlencoded" action="http://web112.otago.ac.nz/112bin/112formslab.cgi">
+			<input type="hidden" name="recipient" value="you@student.otago.ac.nz">
+			<input type="hidden" name= "subject" value="Subject of resulting email">
+			<input type="hiddem" name="followup-page" value="http://www.cs.otao.ac.nz/comp112/followup.html">
+			<p> First name:
+				<input type = "text" name="firstname" size = "12" maxlength= "50" value="">
+			</p>
+			<p> Last name:
+				<input type = "text" name="surname" size = "12" maxlength= "50" value="">
+			</p>
+			<p> Type your email here:
+				<input type="text" name="sender">
+			</p>
+			<p><input type= "submit" name="sending" Value="Go"></p>
+			</form>
+	</body>
+</html>

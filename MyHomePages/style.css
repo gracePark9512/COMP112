@@ -1,0 +1,112 @@
+html {
+	text-align:center;
+	background-color:#FFF8DC;
+	color:black;	
+}
+
+body {
+	background-color: inherit;
+	text-align: left;
+	color: inherit;
+}
+
+#topnav ul li{
+	border: 4px solid #DEB887;
+	padding: 10px 10px;
+	background:  #F0F8FF;
+	width: 90px;
+	margin: 10px;
+	border-radius:20px;
+	text-align: center;
+	float: left;
+	color:inherit;
+	list-style-type:none
+}
+
+h1 {
+	width: 50%;
+	background-color: #DEB887;
+	border-top: 15px dotted #FFF8DC;
+	border-right:15px dotted #FFF8DC;
+	border-bottom: 15px dotted #FFF8DC;
+	border-left: 15px dotted #FFF8DC;
+	padding: 5px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #2F4F4F;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.iam{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 150px;
+}
+
+figure {
+	text-align: center;
+	border: solid #E9967A;
+	width: 100px;
+	margin: auto;	
+} 
+	
+ul {
+	text-align: left;
+}
+
+h2 {
+	background-color: inherit;
+	color: #E9967A;
+	width: 30%;
+	border: double #F08080;
+	padding: 5px 5px 5px 15px;
+	margin-left: 15px;
+	margin-top: 150px;
+}
+
+h3 {
+	background-color: inherit;
+	border: solid #F08080;
+	padding: 5px 5px 5px 15px;
+	margin-top: 150px;
+	color: #E9967A;
+}
+
+.papers {
+	background-color: inherit;
+	border: solid #F08080;
+	padding: 5px 5px 5px 15px;
+	margin-left: 15px;
+	margin-top: 30px;
+	color: #E9967A;
+}
+
+table {
+	width:70%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+table, th, td {
+	border:1px  solid	 #DCDCDC;
+	
+}
+
+th {
+	height: 50px;
+	text-align: center;
+	Background-color: 	#8FBC8F;
+	color:  #FFF8DC;
+}
+
+td{
+	padding: 15px;
+	text-align:left;
+}

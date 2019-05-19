@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<meta charset="UTF-8">
+		<title>Customerform</title>
+	</head>
+	<body class ="back">
+		<h1 class = "form">We'd like to learn <br>more about you!</h1>
+		<form method="post" enctype="x-222-form-urlencoded"  action="http://web112.otago.ac.nz/112bin/112formslab.cgi">
+			<input type="hidden" name="recipient" value="parhy569@student.otago.ac.nz">
+			<input type="hidden" name="subject" value="Future customer's information">
+			<input type="hidden" name="followup-page" value=http://csnet.otago.ac.nz/hpark/pages/contacts.html>
+			<br>
+			<fieldset>
+				<legend>personal Information</legend>
+				<p> First name: <input type="text" name="firstname" maxlength="255" value=""></p>
+				<p> Last name: <input type="text" name="lastname" maxlength="255" value=""></p>
+				<p> Email: <input type="text" name="email" maxlength="255" value=""></p>
+				<p>gender:
+					<input type="radio" name="gender" value="Male">Male
+					<input type="radio" NAME="gender" value="Female">Female
+				</p>
+				<p>Distance form Mama Bear:
+					<INPUT TYPE="radio" NAME="distance" VALUE="Less">Less
+					<INPUT TYPE="radio" NAME="distance" VALUE="10min">10min
+					<INPUT TYPE="radio" NAME="distance" VALUE="20min">20min
+					<INPUT TYPE="radio" NAME="distance" VALUE="30min">30min
+					<INPUT TYPE="radio" NAME="distance" VALUE="More"> More
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Child Information</legend>
+				<p> First name: <input type="text" name="Chid firstname" maxlength="255" value=""></p>
+				<p> Last name: <input type="text" name="Child lastname" maxlength="255" value=""></p>
+				<p>gender:
+					<input type="radio" name="Child gender" value="Male">Male
+					<input type="radio" NAME="Child gender" value="Female">Female
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Interest</legend>
+				<p> Interest class (may click multiple):
+					<input type="checkbox" name="prefer class" value="Infant">Infant
+					<input type="checkbox" name="prefer class" value="Junior">Junior
+					<input type="checkbox" name="prefer class" value="Accelerated">Accelerated
+				</p>
+				<p> Any history of visiting our child care:
+					<INPUT TYPE="radio" NAME="history of visit" VALUE="yes">Yes
+					<INPUT TYPE="radio" NAME="history of visit" VALUE="No">No
+				</p>
+				<p>Does your child have any hobbies?:<br>
+					<textarea cols="50"
+name="hobbies" rows="2">For example: painting</textarea>
+				</p>
+				<br><br>
+			</fieldset>
+			<fieldset>
+				<legend>Comment</legend>
+				<p>Please add any additional questions here:<br>
+					<textarea cols="50"
+name="additional question" rows="2">For example: programmes</textarea>
+				</p>
+				<br><br>
+			</fieldset>
+			<p><input type="submit" name="btnG" value="Submit"></p>
+			<p>
+			<input type="reset" value="Reset">
+			<p>
+		</form>
+		<footer>
+			Hyunsun Park 2016.05.20
+		</footer>
+	</body>
+</html>

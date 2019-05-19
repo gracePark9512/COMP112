@@ -1,0 +1,13 @@
+div{
+	border: 1px solid black;
+	display: inline-block;
+	margin-left: 90px;
+	width: 70px;
+	height: 25px;
+	text-align: center;
+	padding: 10px;
+}
+
+body{
+	padding: 30px;
+}

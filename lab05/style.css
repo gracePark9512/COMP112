@@ -1,0 +1,38 @@
+/* Grace Park, 15 Mar 2016. Style sheet for activity 5 */
+
+html {
+	color: black;
+	background-color: #f2f2ff;
+	font-family: Geneva, helvetica, san-serif;
+}
+
+body {
+	color: red;
+	background-color: inherit;
+	text-align: justify;
+}
+h1{
+	font-size:x-large;
+	color: #DC143C;
+	background-color: #f2f2ff;
+	text-align: center;
+	font-style: italic;
+}
+
+h2{
+	font-size: large;
+	color: #4d4da6;
+	background-color: #f2f2ff;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+p{
+	font-size: medium;
+	color: #4d4da6;
+	background-color: #f2f2ff;
+	font-family: serif;
+	text-indent: 25px;
+}
+
+
